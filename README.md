@@ -5,7 +5,7 @@ Slackに任意のメッセージをコマンドラインから送信します。
 チャンネル名、設定ファイルへのパス、タイトル、メッセージ本文の順で指定します。
 
 ```
-$ python main.py village ./notice.json good 'test' 'This is posted to #village'
+$ python main.py channel_name ./notice.json good 'title' 'description'
 ```
 
 ## 設定ファイル
