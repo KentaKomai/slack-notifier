@@ -1,0 +1,17 @@
+{
+  "name":"SlackNotifier",
+  "incomming_url": "https://hooks.slack.com/services/slackincomming-url",
+  "pretext":"This text has been automatically sent",
+  "good": {
+    "title_prefix":"[OK]",
+    "icon_emoji":":yum:"
+  },
+  "warning": {
+    "title_prefix":"[WARNING]",
+    "icon_emoji":":sweat:"
+  },
+  "danger" : {
+    "title_prefix":"[DANGER]",
+    "icon_emoji":":rage:"
+  }
+}
